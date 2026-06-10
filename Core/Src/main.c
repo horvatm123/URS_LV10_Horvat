@@ -95,7 +95,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  HAL_GPIO_WritePin(GPIOA, PIN_SET_6);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
